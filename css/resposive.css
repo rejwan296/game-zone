@@ -9,7 +9,7 @@
     /* header */
     header .box {
         flex-direction: column;
-        gap: 30px;
+        gap: 28px;
     }
 
     .header-list ul {
@@ -31,18 +31,18 @@
 
     .goat-content {
         background: url('../images/Group\ 14.png');
-        padding: 140px 25px;
+        padding: 138px 22px;
     }
 
     .goat-content h1 {
-        font-size: 40px;
-        line-height: 50px;
-        margin-bottom: 10px;
+        font-size: 38px;
+        line-height: 48px;
+        margin-bottom: 8px;
     }
 
     .goat-content h1 span {
-        font-size: 90px;
-        line-height: 100px;
+        font-size: 94px;
+        line-height: 98px;
     }
 
     /* we are gamer */
@@ -79,7 +79,7 @@
 
     .play-instantly-content {
         text-align: center;
-        flex-basis: 30%;
+        flex-basis: 32%;
     }
 
     img.upper {
@@ -88,9 +88,9 @@
 
     img.lower {
         position: relative;
-        bottom: 120px;
-        margin-bottom: -120px;
-        left: -8px;
+        bottom: 115px;
+        margin-bottom: -115px;
+        left: -10px;
         width: 50%;
     }
 
@@ -100,17 +100,17 @@
     }
 
     .online-game-image img.upper {
-        padding-right: 70px;
+        padding-right: 72px;
     }
 
     .online-game-image img.lower {
         bottom: 100px;
-        left: 60%;
+        left: 62%;
     }
 
     .online-game-image img.lower {
-        bottom: 120px;
-        left: 50%;
+        bottom: 115px;
+        left: 48%;
     }
 
     .online-game-content {
@@ -121,13 +121,13 @@
 
     /* footer */
     .footer-menu ul {
-        gap: 30px;
+        gap: 28px;
         flex-wrap: wrap;
         justify-content: center;
     }
 
     .social-links {
-        gap: 70px;
+        gap: 72px;
         flex-wrap: wrap;
         justify-content: center;
     }
