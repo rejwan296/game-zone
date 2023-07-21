@@ -1,0 +1,137 @@
+/* Mobile Devices */
+@media screen and (max-width:576px) {
+
+    
+    .box {
+        padding: 0 25px;
+    }
+
+    /* header */
+    header .box {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .header-list ul {
+        flex-direction: column;
+    }
+
+    /* play like goat*/
+    #goat {
+        background-image: none;
+    }
+
+    #goat .box {
+        padding: 0;
+    }
+
+    .goat {
+        flex-direction: column-reverse;
+    }
+
+    .goat-content {
+        background: url('../images/Group\ 14.png');
+        padding: 140px 25px;
+    }
+
+    .goat-content h1 {
+        font-size: 40px;
+        line-height: 50px;
+        margin-bottom: 10px;
+    }
+
+    .goat-content h1 span {
+        font-size: 90px;
+        line-height: 100px;
+    }
+
+    /* we are gamer */
+    #gamer {
+        background: none;
+        padding: 0;
+    }
+
+    .gamer {
+        flex-direction: column;
+    }
+
+    .gamer-content {
+        text-align: center;
+    }
+
+    /* funny games video */
+    .section-title h2 {
+        line-height: 1;
+    }
+
+    .video-box {
+        grid-template-columns: 1fr;
+    }
+
+    .video-image>img {
+        width: 100%;
+    }
+
+    /* play instant */
+    #play-instantly .box {
+        flex-direction: column;
+    }
+
+    .play-instantly-content {
+        text-align: center;
+        flex-basis: 30%;
+    }
+
+    img.upper {
+        padding-left: 70px;
+    }
+
+    img.lower {
+        position: relative;
+        bottom: 120px;
+        margin-bottom: -120px;
+        left: -8px;
+        width: 50%;
+    }
+
+    /* play online */
+    #online-game .box {
+        flex-direction: column-reverse;
+    }
+
+    .online-game-image img.upper {
+        padding-right: 70px;
+    }
+
+    .online-game-image img.lower {
+        bottom: 100px;
+        left: 60%;
+    }
+
+    .online-game-image img.lower {
+        bottom: 120px;
+        left: 50%;
+    }
+
+    .online-game-content {
+        text-align: center;
+    }
+
+    
+
+    /* footer */
+    .footer-menu ul {
+        gap: 30px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .social-links {
+        gap: 70px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+/* for tablet */
+@media screen and (min-width:577px) and (max-width:1200px) {}
